@@ -1,2 +1,2 @@
-const greeting = 'Hello World from node js!'
-console.log(greeting);
+const path = require('path')
+console.log(`the file name is ${path.basename(__filename)}`);
